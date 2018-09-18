@@ -149,6 +149,9 @@ nav{
 .brand {
 	font-weight: 700;
 }
+.white {
+	color: #fff;
+}
 .dmain{
 	font-size: 18px;
 	font-weight: 300;
@@ -172,9 +175,32 @@ nav{
 	
 	
 }
+.cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 782px;
+	
+}
+.card {
+	background-color: #fff;
+	width: 220px;
+	height: 418px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.absub{
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #ffffff;
+}
 .phead{
 	/* Style for "Portfolio" */
 	font-size: 28px;
+	line-height: 1.2;
 	font-weight: 400;
 	margin: 0;
 }
@@ -251,14 +277,68 @@ i {
 .aboutus {
 	height: 646px;
 	background-color: #16a086;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
 }
 .contact {
 	height: 498px;
 	background-color: #ecf0f1;
 }
+.name {
+	font-size: 18px;
+	
+	
+}
+.position {
+	font-size: 14px;
+	font-style: italic;
+	
+}
+.abperson {
+	line-height: 1.2;
+	font-weight: 400;
+}
+.person {
+	width: 197px;
+	height: 94px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #444444;
+	margin-bottom: 20px;
+}
+.socety {
+	display: none;
+	width: 180px;
+	height: 48px;
+	opacity: 0.8;
+	background-color: #16a086;
+	font-size: 29px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #ffffff;
+}
+.up {
+	background-color: #1bbc9b; 
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #ffffff;
+	width: 44px;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	height: 44px;
+}
 footer {
 	display: flex;
 	padding-left: 40px;
+	padding-right: 40px;
+	justify-content: space-between;
 	align-items: center;
 	color: #ffffff;
 	font-size: 14px;
