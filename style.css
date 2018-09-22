@@ -14,8 +14,7 @@ body {
 	color: #444444;
 	margin-bottom: 0;
 }
-.main{
-	
+.main{	
 	width: 99px;
 	font-size: 14px;
 }
@@ -27,7 +26,6 @@ body {
 	flex-wrap: wrap;
 	height: 394px;
 	align-content: space-between;
-
 }
 .round {
 	border-radius: 90px;
@@ -46,7 +44,6 @@ body {
 	font-size: 21px;
 	font-weight: 400;
 }
-
 .green {
 	background-color: #00a99d;
 }
@@ -87,8 +84,7 @@ body {
 }
 .smalltext {
 	font-size: 14px;
-	font-weight: 400;
-	
+	font-weight: 400;	
 }
 .hover {
 	box-sizing: border-box;
@@ -167,20 +163,14 @@ nav{
 	line-height: 32px;
 }
 .description {
-	/* Style for "Lorem ipsu" */
-	
-	
 	width: 600px;
-	height: 41px;
-	
-	
+	height: 41px;	
 }
 .cards {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 782px;
-	
+	width: 782px;	
 }
 .card {
 	background-color: #fff;
@@ -287,9 +277,7 @@ i {
 	background-color: #ecf0f1;
 }
 .name {
-	font-size: 18px;
-	
-	
+	font-size: 18px;		
 }
 .position {
 	font-size: 14px;
@@ -310,16 +298,27 @@ i {
 	color: #444444;
 	margin-bottom: 20px;
 }
+figure {
+	height: 228px;
+	margin: 0;
+	padding: 0;
+}
 .socety {
-	display: none;
+	position: relative;
+	visibility: hidden;
+	top: -138px;
+	left: 20px;
 	width: 180px;
 	height: 48px;
 	opacity: 0.8;
 	background-color: #16a086;
 	font-size: 29px;
 	line-height: 1.2;
-	font-weight: 400;
 	color: #ffffff;
+	z-index: 9999;
+}
+figure:hover .socety{
+	visibility: visible;
 }
 .up {
 	background-color: #1bbc9b; 
@@ -329,7 +328,6 @@ i {
 	color: #ffffff;
 	width: 44px;
 	display: flex;
-	-ms-align-items: center;
 	align-items: center;
 	justify-content: center;
 	height: 44px;
